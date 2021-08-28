@@ -8,8 +8,9 @@ public class hello {
     //System.out.println("Merhaba java");
     //falan filan.
 
-    int number = 5;
-
-    System.out.print(number);
+    Phone iPhone = new Phone();
+    
+    iPhone.name = "iPhone 11";
+    iPhone.playMusic("test");
   }
 }
